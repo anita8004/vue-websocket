@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-const server = app.listen(3001, function () {
+const server = app.listen(process.env.PORT || 3001, '0.0.0.0', function () {
   console.log('server running on port 3001');
 });
 
