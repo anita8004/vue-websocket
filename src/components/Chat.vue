@@ -36,7 +36,7 @@
         user: '',
         message: '',
         messages: [],
-        socket: io('0.0.0.0:3001')
+        socket: io('localhost:3001')
       }
     },
     methods: {
